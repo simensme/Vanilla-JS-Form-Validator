@@ -25,3 +25,72 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.4);
 }
+
+/* Form styling */
+form {
+    width: 90%;
+}
+
+.form-group {
+    height: 65px;
+}
+
+label {
+    position: relative;
+    bottom: 3px;
+}
+
+input {
+    width: 100%;
+    height: 34px;
+    padding: 5px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+/* Button styling */
+
+button {
+    cursor: pointer;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+button:hover {
+    filter: brightness(200%);
+    background: rgb(30, 30, 30);
+}
+
+button:focus {
+    outline: none;
+}
+
+.message-container {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
