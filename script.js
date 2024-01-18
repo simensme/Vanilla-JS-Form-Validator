@@ -47,7 +47,7 @@ const storeFormData = () => {
         website: form.website.value,
         password: form.password.value
     };
-    // Manipulate user data
+    // Manipulate user data in an eventual server-side program
     console.log(user);
 };
 
